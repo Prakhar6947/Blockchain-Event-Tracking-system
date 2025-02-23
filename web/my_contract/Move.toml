@@ -1,0 +1,11 @@
+[package]
+name = "TicketingSystem"
+version = "0.1.0"
+authors = ["your_name"]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "testnet" }
+
+[addresses]
+ticket_booking = "0x248d2d3c16c2327d4bf8f5fab880b314c43acb04a3fcf094e5d8bbc12c75a48f"
+aptos_framework = "0x1"

@@ -1,0 +1,15 @@
+{
+    "name": "ticket-booking-backend",
+    "version": "1.0.0",
+    "description": "Backend for ticket booking app",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "aptos": "^1.0.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2"
+    }
+  }
